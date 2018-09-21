@@ -10,7 +10,7 @@ class View {
     /**
      * @param $view
      */
-    public function renderView($view)
+    public function renderView($view, $data = null)
     {
         $view .= '.php';
 

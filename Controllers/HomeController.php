@@ -2,6 +2,7 @@
 namespace Controllers;
 
 use Controllers\BaseController;
+use Repositories\DemoRepository;
 
 /**
  * Class HomeController
@@ -9,8 +10,31 @@ use Controllers\BaseController;
  */
 class HomeController extends BaseController {
 
+    /**
+     * @var DemoRepository
+     */
+    protected $demoRepository;
+
+    /**
+     * HomeController constructor.
+     */
+    function __construct()
+    {
+        $this->demoRepository = new DemoRepository();
+    }
+
     public function index()
     {
         $this->View->renderView('Pages/home');
+    }
+
+    public function demoList()
+    {
+        $list = $this->demoRepository->listing();
+
+        /**
+         * render this list with view for the data in views.
+         * $this->View->renderView('Pages/demo-list', $list);
+         */
     }
 }

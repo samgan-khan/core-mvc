@@ -5,8 +5,23 @@ $uri = array_values(
     )
 );
 
+include ('Config/connection.php');
 include ('Controllers/BaseController');
 include('Views/View.php');
+
+/**
+ * including all Repositories
+ */
+foreach (glob("Repositories/*.php") as $filename) {
+    include ($filename);
+}
+
+/**
+ * including all models.
+ */
+foreach (glob("Models/*.php") as $filename) {
+    include ($filename);
+}
 
 /**
  * on index 0 of $uri will be the name of controller.
