@@ -6,7 +6,7 @@ $uri = array_values(
 );
 
 include ('Config/connection.php');
-include ('Controllers/BaseController');
+include('Controllers/BaseController.php');
 include('Views/View.php');
 
 /**

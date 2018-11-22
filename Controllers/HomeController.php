@@ -1,7 +1,6 @@
 <?php
 namespace Controllers;
 
-use Controllers\BaseController;
 use Repositories\DemoRepository;
 
 /**
@@ -20,6 +19,8 @@ class HomeController extends BaseController {
      */
     function __construct()
     {
+
+        parent::__construct();
         $this->demoRepository = new DemoRepository();
     }
 
