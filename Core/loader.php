@@ -19,7 +19,7 @@ foreach (glob("Models/*.php") as $filename) {
 }
 
 /**
- * including all Repositories
+ * including all Controllers
  */
 foreach (glob("Controllers/*.php") as $filename) {
     include ($filename);

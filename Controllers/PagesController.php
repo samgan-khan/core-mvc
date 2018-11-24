@@ -7,7 +7,7 @@ use Repositories\DemoRepository;
  * Class HomeController
  * @package Controllers
  */
-class HomeController extends BaseController {
+class PagesController extends BaseController {
 
     /**
      * @var DemoRepository
