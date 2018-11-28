@@ -1,0 +1,7 @@
+{
+  "name": "samgan-khan/febie",
+  "description": "A PHP based MVC framework",
+  "require": {
+    "php": "^5.6.37 || ^7.0"
+  }
+}

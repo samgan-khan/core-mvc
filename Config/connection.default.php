@@ -22,12 +22,12 @@ class Connection
     /**
      * @var string
      */
-    private $password = 'root';
+    private $password = '';
 
     /**
      * @var string
      */
-    private $dbName = 'shubh';
+    private $dbName = '';
 
     /**
      * @return mysqli

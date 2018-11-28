@@ -1,2 +1,3 @@
 Config/connection.php
+vendor/*
 .idea/*
