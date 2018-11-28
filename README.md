@@ -7,7 +7,6 @@ MVC design pattern implemented on Core PHP, a simple yet elegant framework.
 composer create-project samgan-khan/febie
 ```
 
-
 ## Run
 ```php febie server```
 
