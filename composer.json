@@ -1,20 +1,7 @@
 {
   "name": "samgan-khan/febie",
   "description": "A PHP based MVC framework",
-  "repositories": [
-    {
-      "type": "package",
-      "package": {
-        "name": "samgan-khan/febie",
-        "version": "dev-master",
-        "source": {
-          "url": "https://github.com/samgan-khan/febie",
-          "type": "git",
-          "reference": "master"
-        }
-      }
-    }
-  ],
+  "type": "project",
   "authors": [
     {
       "name": "Mohd Samgan Khan",
