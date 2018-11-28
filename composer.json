@@ -9,7 +9,8 @@
   ],
   "repositories": [
     {
-      "type": "vcs",
+      "type": "git",
+      "reference": "master",
       "url": "https://github.com/samgan-khan/febie"
     }
   ],
