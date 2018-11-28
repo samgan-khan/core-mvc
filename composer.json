@@ -1,17 +1,11 @@
 {
   "name": "samgan-khan/febie",
   "description": "A PHP based MVC framework",
+  "type": "project",
   "authors": [
     {
       "name": "Mohd Samgan Khan",
       "email": "mohdsamgankhan@gmail.com"
-    }
-  ],
-  "repositories": [
-    {
-      "type": "git",
-      "reference": "master",
-      "url": "https://github.com/samgan-khan/febie"
     }
   ],
   "require": {
