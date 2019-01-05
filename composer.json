@@ -9,7 +9,8 @@
     }
   ],
   "require": {
-    "php": "^5.6.37 || ^7.0"
+    "php": "^5.6.37 || ^7.0",
+    "samgan-khan/febie-core": "^0.0.0"
   },
   "prefer-stable": true
 }

@@ -21,5 +21,4 @@ class BaseController {
     {
         $this->View = new View();
     }
-
 }

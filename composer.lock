@@ -4,13 +4,39 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c14dd4b936f4be37bde2ffdc2de90683",
-    "packages": [],
+    "content-hash": "129f1165de8aa98c1e55849176c5aad2",
+    "packages": [
+        {
+            "name": "samgan-khan/febie-core",
+            "version": "v0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/samgan-khan/febie-core.git",
+                "reference": "71365c9d243ffa8f136790d876f6b802d41c3eea"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/samgan-khan/febie-core/zipball/71365c9d243ffa8f136790d876f6b802d41c3eea",
+                "reference": "71365c9d243ffa8f136790d876f6b802d41c3eea",
+                "shasum": ""
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Mohd Samgan Khan",
+                    "email": "mohdsamgankhan@gmail.com"
+                }
+            ],
+            "description": "core for febie framework",
+            "time": "2019-01-05T18:24:09+00:00"
+        }
+    ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": [],
-    "prefer-stable": false,
+    "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
         "php": "^5.6.37 || ^7.0"
