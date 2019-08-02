@@ -4,7 +4,7 @@ MVC design pattern implemented on Core PHP, a simple yet elegant framework.
 ## Install
 
 ```
-composer create-project samgan-khan/febie
+composer create-project msamgan/febie
 ```
 
 ## Run
